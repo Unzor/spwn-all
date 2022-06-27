@@ -1,2 +1,9 @@
 # spwn-all
-generate all object IDs in GD 2.11 
+generate all objects in Geometry Dash
+
+# usage
+```rs
+import "spwn-all.spwn"
+@all::generateWithIDs() // generate with IDs
+@all::generate() // generate without IDs
+```
