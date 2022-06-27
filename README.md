@@ -3,8 +3,8 @@ generate all objects in Geometry Dash
 
 # usage
 ```rs
-import "main.spwn"
+all = import "main.spwn"
 
-@all::generateWithIDs() // generate with IDs
-@all::generate() // generate without IDs
+all::generateWithIDs() // generate with IDs
+all::generate() // generate without IDs
 ```
