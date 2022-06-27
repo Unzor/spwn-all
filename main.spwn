@@ -1,11 +1,10 @@
 extract obj_props
+objs = 1..1915;
 
 type @all
 impl @all {
     generateWithIDs: () {
         let x = 0
-        let objs = 1..1915;
-
         for id in objs {
             $.add(obj {
                 OBJ_ID: id,
@@ -18,8 +17,6 @@ impl @all {
     },
     generate: () {
         let x = 0
-        let objs = 1..1915;
-
         for id in objs {
             $.add(obj {
                 OBJ_ID: id,
