@@ -3,7 +3,7 @@ objs = 1..1915;
 
 type @all
 impl @all {
-    generateWithIDs: () {
+    generate_with_IDs: () {
         let x = 0
         for id in objs {
             $.add(obj {
@@ -27,5 +27,3 @@ impl @all {
         }
     }
 }
-
-return @all
