@@ -1,0 +1,14 @@
+extract obj_props
+
+let x = 0
+let objs = 1..1915;
+
+for id in objs {
+    $.add(obj{
+        OBJ_ID: id,
+        X: 15+x,
+        Y: 15
+    })
+    $.add(@string(id).to_obj().with(X, 15+x).with(Y, 70))
+    x += 150
+}
